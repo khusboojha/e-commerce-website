@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Yusei+Magic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+}
+.content
+{   
+    display: inline;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;   
+}
+.content .textbox
+{
+    position: absolute;
+    max-width: 500px;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 4px 20px;
+    align-items: center;
+    border-radius: 40px;
+    right: 55%;
+}
+.content .textbox h2
+{
+    color: rgb(33, 57, 129);
+    font-size: 1.2em;
+    line-height: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5%;
+}
+.content .textbox h2:hover
+{
+    transform: translateY(-50%)
+}
+.categories
+{
+    max-width: 1000px;
+    margin: 0;
+    background: rgb(10, 65, 110);
+    
+}
+.categories h3
+{
+    margin: 0;
+    padding: 10%;
+    color: rgb(240, 236, 236);
+    margin-right: 100px;
+    cursor: pointer;
+    transition: 0.5%;
+}
+.categories h3:hover
+{
+    transform: translateY(-15px);
+}
+.categories p
+{
+    font-size: 1.2em;
+    color: rgb(229, 230, 193);
+    margin-left: 120px;
+    padding: 4px 30px;
+    cursor: pointer;
+    transition: 0.5%;
+}
+.categories p:hover
+{
+    transform: translateY(-15px);
+}
+.purchase h4
+{
+    position: absolute;
+    max-width: 500px;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 5px 20px;
+    align-items: center;
+    right: 55%;
+}
+.purchase p1
+{
+    margin-left: 330px;
+    padding: 5px 20px ;
+    border-radius: 50px ;
+    position: absolute;
+    bottom: -15%;
+    cursor: pointer;
+}
+.purchase p2
+{
+    margin-left: 240px;
+    position: absolute;
+    bottom: -20%;
+}
+.purchase .button 
+{
+    margin-left: 350px;
+    padding: 5px 20px ;
+    border-radius: 50px ;
+    position: absolute;
+    bottom: -15%;
+    cursor: pointer;
+}
+.purchase a  
+{   display: inline-block;
+    margin-top: 150px;
+    padding: 8px 20px;
+    background: rgb(10, 65, 110);
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-decoration: none;
+    margin-left: 320px;
+}
+.pictures
+{   
+    padding: 3px 0px;
+    position: absolute;
+}
